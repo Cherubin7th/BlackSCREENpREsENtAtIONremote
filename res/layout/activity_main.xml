@@ -1,0 +1,142 @@
+<!-- 
+    Copyright (C) 2014  André Horst Lippok (Cherubin7th@yahoo.com)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+     -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+  <ScrollView
+      android:id="@+id/scrollView1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical" >
+
+                
+ 
+                  
+  <TextView
+        android:id="@+id/Kopf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="BlackSCREEN" />
+<TextView
+        android:id="@+id/Kopf2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="24sp"
+        android:text="pREsENtAtIONremote" />
+
+<TextView
+        android:id="@+id/connecttest"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="24sp"
+        android:text="not connected" />
+
+
+   <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" 
+              android:layout_marginBottom="20dp"
+              >
+              
+          <Button
+              android:id="@+id/wlan"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="onWlanSelected"
+              android:layout_weight="1"
+              android:visibility="gone"
+              android:text="WLAN" />
+
+  <!-- Not yer supported -->
+          <Button
+              android:id="@+id/bluetooth"
+              android:visibility="gone"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:onClick="onBluetoothSelected"
+              android:text="Bluetooth" />
+ </LinearLayout>
+     
+  <!-- If WLAN connection is selected -->
+    <TextView
+        android:id="@+id/infoTextIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Enter the ip-address:" />
+     <EditText
+        android:id="@+id/editIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="---.---.--.--"
+        android:ems="10" />
+     <Button
+        android:id="@+id/start1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onStart"
+        android:text="Start" />
+    <!-- Wlan END -->
+     
+    <!-- If bluetooth is selected --> 
+     
+     
+         <Button
+        android:id="@+id/start2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        android:onClick="onStart"
+        android:text="Start" />
+     
+     
+     <!-- bluetooth END -->
+     
+     
+        <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom"
+        android:onClick="onAbout"
+        android:text="Settings" />
+     </LinearLayout>
+  </ScrollView>
+</LinearLayout>

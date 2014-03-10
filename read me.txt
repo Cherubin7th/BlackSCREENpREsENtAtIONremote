@@ -1,0 +1,105 @@
+This is the documentation of the two programs:
+BlackScreenPreSenTaTion
+and
+BlackSCREENpREsENtAtIONremote
+
+Table of content:
+1. How to install this software
+2. How to set up this software
+3. How to use this software
+4. How to generate this software from source
+
+
+=================================
+1.  How to install this software:
+
+This system needs two programs:
+	-the .jar-file called BlackScreenPreSenTaTion
+        -and the android app called BlackSCREENpREsENtAtIONremote
+
+---------------------------------------------------------------------------------
+1.1 Installing the android app BlackSCREENpREsENtAtIONremote on an android phone:
+
+-If you downloaded an .apk-file you can install it on you android phone just like any other apk.
+ You may need to allow the installation of .apk-files that are not from the play store in your phones setting.
+
+-If you got it via an online app store(like for example the Google play store) the installation should be automatic.
+(If this store is not the Google play store, you may need to allow the installation of .apk-files that are not from the play store in your phones setting.)
+
+This should be all to install the android app BlackSCREENpREsENtAtIONremote!
+
+To start it you just need to touch the symbol on your screen, as with any other android app.
+
+----------------------------------------------------------------------------
+1.2 Installing the java application BlackScreenPreSenTaTion on you computer:
+
+You need a java interpreter on your computer, so that java programs(like the .jar-file) can run.
+-> You need to copy paste the BlackScreenPreSenTaTion.tar.gz on your computer. 
+-> Now you need to extract the content. 
+After extraction you will have a folder called BlackScreenPreSenTaTion. 
+This folder contains: 
+- a .jar-file called: BlackScreenPreSenTaTion.jar
+- a license (GNU GPLv3)
+- a file called BlackScreenPreSenTaTion_source.tar.gz (the source code of this program)
+- a file called readme
+
+To start this program you just need to double click on the BlackScreenPreSenTaTion.jar or to start it via command line with(like with any other .jar-file):
+
+java -jar BlackScreenPreSenTaTion.jar
+
+
+Now the program should run. If it does then you should see a small window.
+
+
+==============================
+2.  How to set up this software:
+
+------------------
+2.1 If using wlan:
+
+First you need to activate the mobile hotspot of your android phone. Now you can connect the computer to the wlan signal of your phone(Tipp: look for something that is called android).
+
+Second you need the ip-address of this connection. On Android: To get the ip you can click on the hotspot tethering symbol an see a list of all connected devices, on of them should be the computer you connected to. Or you can also look at a wlan list on your computer that shows the android hotspot your computer is now connected to.
+
+If you cannot connect check the fire wall.
+
+
+
+=============================
+3.  How to use this software:
+
+---------------
+3.1 Using wlan:
+
+First start the .jar-file on your computer and click the start button.
+Now start the app BlackSCREENpREsENtAtIONremote and enter the ip-address in the ip text field and click on the start button.
+
+=> Now the connection should work.
+
+
+
+---------------
+3.3 How to use:
+When you have a connection(and pressed start in both programs), you just need to press the volume button
+(the buttons for setting the volume of the phones sound and music) on your android phone. 
+If you pressed volume up, this triggers that the java program creates a right arrow key event. 
+If you pressed volume down, this makes that the java program creates a left arrow key event.
+
+Why?
+If you now have a presentation open(like PowerPoint or pdf beamer), volume up pressed will give you the 
+next frame or animation. Volume down will let you go back.
+
+
+-------------------------------------------------------
+While this app runs the phone cannot go into deep sleep mode, because it has to be active all time to 
+listen for the volume buttons. Also the phone needs to be a hotspot all the time. This will lead to a 
+higher battery usage. This varies a lot between devices, for example tests on the Samsung galaxy S3 
+showed that the battery will lose about 7 to 15 per hour. 
+
+===================================
+4. Create the programs from source:
+
+The file BlackScreenPreSenTaTion_source.tar.gz is an tar-ball that contains the complete eclipse java project, that was used to create this program. Extract this tar-ball. To use it open eclipse and press import->general->Existing Projects into Workspace and select the extracted folder as root directory and now this project is in eclipse. Now just select export->Java->Runnable JAR file!
+
+To create the app from source, get the source from the F-Droid website and extract the tar-ball or similar. In eclipse go import->general->Existing Projects into Workspace and select the exacted folder as root directory and you have it. To run it right click on the android project you now have, select run, run as android application!
+

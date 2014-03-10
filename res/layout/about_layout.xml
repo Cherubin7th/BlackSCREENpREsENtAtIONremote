@@ -1,0 +1,148 @@
+<!-- 
+    Copyright (C) 2014  André Horst Lippok (Cherubin7th@yahoo.com)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+     -->
+     
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <ScrollView
+      android:id="@+id/scrollView1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical" >
+          
+  
+
+     <TextView
+         android:id="@+id/textView1"
+         android:textSize="20sp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="BlackSCREENpREsENtAtIONremote" />
+       <TextView
+         android:id="@+id/textView17"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Set port:" />
+        <EditText
+         android:id="@+id/portsettings"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="number" >
+
+     </EditText>
+       <Button
+         android:id="@+id/buttonsettings"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="saveSettings"
+         android:text="Save Settings" />
+     
+     
+      <TextView
+         android:id="@+id/textView1"
+         android:textSize="20sp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Software" />
+      
+      
+      
+      
+      
+          <TextView
+         android:id="@+id/textView1"
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="To use this program you also need a java file on your computer.\nJust click the download linke to get it in a zip file.\nIt is called BlackScreenPreSenTaTion:" />
+     
+        <TextView
+         android:id="@+id/textView1"
+         android:layout_marginTop="5dp"
+         android:layout_width="wrap_content"
+         android:autoLink="web"
+         android:textSize="18sp"
+         android:layout_height="wrap_content"
+         android:text="Get to BlackScreenPreSenTaTion:\n http://www.qqc.co/2a44cc51" />
+       <TextView
+         android:id="@+id/textView1"
+         android:layout_marginTop="5dp"
+         android:layout_width="wrap_content"
+         android:textSize="15sp"
+         android:layout_height="wrap_content"
+         android:text="Or use a direct link, but consider bitcoints compansation if you want\nBitcoints: \n 18QSJmV6Liia7Cau65JnEj2JyxEUCGE2oz \n the direct link:\n https://www.dropbox.com/sh/yg9g7xwipio0zie/uU2rh1dmDU" />
+    
+        <TextView
+         android:id="@+id/textView1"
+         android:textSize="17sp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="If you have any questions or problems please write a mail:" />
+              <Button
+         android:id="@+id/contact"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="onContact"
+         android:text="Contact us." />
+              
+              
+              
+        <TextView
+         android:id="@+id/textView2"
+         android:layout_marginTop="50dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:autoLink="web"
+         android:text="If you downloaded this file from F Droid, you can get the source at www.fdroid.org.\n" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_marginTop="5dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:autoLink="web"
+         android:text="Github source:\n" />
+
+     
+        
+        
+        
+        
+     
+         <TextView
+         android:id="@+id/licenseView"
+         android:layout_marginTop="70dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""/>
+         
+         
+   
+     
+     
+      </LinearLayout>
+  </ScrollView>
+
+   
+     
+</LinearLayout>
