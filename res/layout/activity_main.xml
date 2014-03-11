@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textSize="24sp"
-        android:text="pREsENtAtIONremote" />
+        android:text="remote" />
 
 <TextView
         android:id="@+id/connecttest"
