@@ -89,6 +89,7 @@
          android:layout_marginTop="5dp"
          android:layout_width="wrap_content"
          android:textSize="15sp"
+         android:textIsSelectable="true"
          android:layout_height="wrap_content"
          android:text="Or use a direct link, but consider bitcoints compansation if you want\nBitcoints: \n 18QSJmV6Liia7Cau65JnEj2JyxEUCGE2oz \n the direct link:\n https://www.dropbox.com/sh/yg9g7xwipio0zie/uU2rh1dmDU" />
     
@@ -113,6 +114,7 @@
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:autoLink="web"
+         android:textIsSelectable="true"
          android:text="If you downloaded this file from F Droid, you can get the source at www.fdroid.org.\n" />
 
      <TextView
@@ -121,6 +123,7 @@
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:autoLink="web"
+         android:textIsSelectable="true"
          android:text="Github source:\n https://github.com/Cherubin7th/BlackSCREENpREsENtAtIONremote" />
 
      
@@ -134,6 +137,8 @@
          android:layout_marginTop="70dp"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
+         android:textIsSelectable="true"
+          android:autoLink="web"
          android:text=""/>
          
          
