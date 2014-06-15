@@ -36,7 +36,8 @@
           android:layout_height="match_parent"
           android:orientation="vertical" >
 
-                
+               
+
  
                   
   <TextView
@@ -44,14 +45,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="BlackSCREEN" />
+        android:text="@string/title"
+        />
 <TextView
         android:id="@+id/Kopf2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textSize="24sp"
-        android:text="remote" />
+        android:text="@string/subtitle"
+         />
 
 <TextView
         android:id="@+id/connecttest"
@@ -60,7 +63,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textSize="24sp"
-        android:text="not connected" />
+        android:text="@string/not_connected"
+         />
 
 
    <LinearLayout
@@ -78,7 +82,7 @@
               android:visibility="gone"
               android:text="WLAN" />
 
-  <!-- Not yer supported -->
+  <!-- Not yer supported (Bluetooth)-->
           <Button
               android:id="@+id/bluetooth"
               android:visibility="gone"
@@ -95,12 +99,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="Enter the ip-address:" />
+        android:text="@string/statement"
+         />
      <EditText
         android:id="@+id/editIp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="---.---.--.--"
+        android:hint="---.---.--.--"
         android:ems="10" />
      <Button
         android:id="@+id/start1"
@@ -109,7 +114,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:onClick="onStart"
-        android:text="Start" />
+        android:text="@string/startbutton"
+         />
     <!-- Wlan END -->
      
     <!-- If bluetooth is selected --> 
@@ -123,7 +129,8 @@
         android:layout_marginBottom="10dp"
         android:visibility="gone"
         android:onClick="onStart"
-        android:text="Start" />
+        android:text="@string/startbutton"
+        />
      
      
      <!-- bluetooth END -->
@@ -136,7 +143,8 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="bottom"
         android:onClick="onAbout"
-        android:text="Settings" />
+        android:text="@string/settingsbutton"
+        />
      </LinearLayout>
   </ScrollView>
 </LinearLayout>

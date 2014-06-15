@@ -15,6 +15,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
      -->
      
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,16 +34,18 @@
   
 
      <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/abouttext1"
          android:textSize="20sp"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:text="BlackSCREENremote" />
+         android:text="@string/setting_title"
+         />
        <TextView
-         android:id="@+id/textView17"
+         android:id="@+id/abouttext2"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:text="Set port:" />
+         android:text="@string/setting_set_port"
+          />
         <EditText
          android:id="@+id/portsettings"
          android:layout_width="match_parent"
@@ -55,76 +59,85 @@
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:onClick="saveSettings"
-         android:text="Save Settings" />
+         android:text="@string/setting_savebuttong"
+          />
      
      
       <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/abouttext3"
          android:textSize="20sp"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:text="Software" />
+         android:text="@string/setting_server_intro"
+          />
       
       
       
       
       
           <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/abouttext4"
          android:layout_marginTop="10dp"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:text="To use this program you also need a java file on your computer.\nJust click the download linke to get it in a zip file.\nIt is called BlackScreenPreSenTaTion:" />
+         android:text="@string/setting_getserver"
+         />
      
         <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/abouttext5"
          android:layout_marginTop="5dp"
          android:layout_width="wrap_content"
          android:autoLink="web"
          android:textSize="18sp"
          android:layout_height="wrap_content"
-         android:text="Get to BlackScreenPreSenTaTion:\n http://www.qqc.co/2a44cc51" />
+         android:text="@string/setting_add_link"
+         />
        <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/abouttext6"
          android:layout_marginTop="5dp"
          android:layout_width="wrap_content"
          android:textSize="15sp"
          android:textIsSelectable="true"
          android:layout_height="wrap_content"
-         android:text="Or use a direct link, but consider bitcoints compansation if you want\nBitcoints: \n 18QSJmV6Liia7Cau65JnEj2JyxEUCGE2oz \n the direct link:\n https://www.dropbox.com/sh/yg9g7xwipio0zie/uU2rh1dmDU" />
+         android:text="@string/setting_direct_link"
+         />
     
         <TextView
-         android:id="@+id/textView1"
+         android:id="@+id/abouttext7"
          android:textSize="17sp"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:text="If you have any questions or problems please write a mail:" />
+         android:text="@string/setting_contact"
+         />
               <Button
          android:id="@+id/contact"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:onClick="onContact"
-         android:text="Contact us." />
+         android:text="@string/setting_contactbutton"
+         />
               
               
               
         <TextView
-         android:id="@+id/textView2"
+         android:id="@+id/abouttext8"
          android:layout_marginTop="50dp"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:autoLink="web"
          android:textIsSelectable="true"
-         android:text="If you downloaded this file from F Droid, you can get the source at www.fdroid.org.\n" />
+         android:text="@string/setting_getsource_fdroid"
+         />
 
      <TextView
-         android:id="@+id/textView2"
+         android:id="@+id/abouttext9"
          android:layout_marginTop="5dp"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:autoLink="web"
          android:textIsSelectable="true"
-         android:text="Github source:\n https://github.com/Cherubin7th/BlackSCREENpREsENtAtIONremote" />
+         android:text="@string/setting_getsource_github"
+         />
 
      
         

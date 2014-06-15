@@ -3,5 +3,29 @@
 
     <string name="app_name">BlackSCREENremote</string>
     <string name="action_settings">Settings</string>
-   
+    <string name="title">BlackSCREEN</string>
+    <string name="subtitle">remote</string>
+    <string name="statement">Enter the ip-address</string>
+    <string name="startbutton">Start</string>
+    <string name="stopbutton">Stop</string>
+    <string name="settingsbutton">Settings</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="connected">Connected</string>
+    
+
+    <string name="setting_title">BlackSCREENremote</string>
+    <string name="setting_set_port">Set port:</string>
+    <string name="setting_savebuttong">Save Settings</string>
+    <string name="setting_server_intro">Software</string>
+    <string name="setting_getserver">To use this program you also need a java file on your computer.\nJust click the download linke to get it in a zip file.\nIt is called BlackScreenPreSenTaTion:</string>
+    <string name="setting_add_link">Get to BlackScreenPreSenTaTion:\n http://www.qqc.co/2a44cc51</string>
+    <string name="setting_direct_link">Or use a direct link, but consider bitcoints compansation if you want\nBitcoints: \n 18QSJmV6Liia7Cau65JnEj2JyxEUCGE2oz \n the direct link:\n https://www.dropbox.com/sh/yg9g7xwipio0zie/uU2rh1dmDU</string>
+    <string name="setting_contact">If you have any questions or problems please write a mail:</string>
+    <string name="setting_contactbutton">Contact us.</string>
+    <string name="setting_getsource_fdroid">If you downloaded this file from F Droid, you can get the source at www.fdroid.org.\n</string>
+    <string name="setting_getsource_github">Github source:\n https://github.com/Cherubin7th/BlackSCREENpREsENtAtIONremote</string>
+    
+    
+    
+    
 </resources>
